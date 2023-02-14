@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>DeCommerce: Success page</title>
+        <meta name="Description" content="Decentralized Ecommerce Platform for Web 3.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/svg+xml" href="images/favicon/favicon.svg">
+        <link rel="alternate icon" href="images/favicon/favicon.ico">
+        <link rel="stylesheet" href="html/css/main.css" />
+        <link rel="stylesheet" href="css/hint.min.css" />
+        <script src="html/js/uikit.js"></script>
+        <script src="html/js/uikit-icons.js"></script>
+        <script src="html/js/jquery.js"></script>
+        <script src="html/js/main.js"></script>
+        <script src="js/localforage.min.js"></script>
+        <script>
+
+            // Clear localForage
+            localforage.clear();
+
+        </script>
+    </head>
+
+    <body>
+
+        <nav class="uk-navbar-container uk-margin uk-navbar-transparent uk-background-primary uk-light uk-margin-remove-bottom">
+            <div class="uk-container">
+                <div uk-navbar>
+                    <div class="uk-navbar-left">
+                        <a href="index.html"><span class="uk-icon" uk-icon="icon: arrow-left; ratio: 2"></span></a>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <a class="uk-navbar-item uk-logo uk-text-uppercase" href="index.html"><img class="logo" src="html/images/logo_white.svg" alt="DeCommerce" width="140"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="uk-section uk-section-small uk-padding-remove-bottom section-content">
+            <div class="uk-container uk-position-relative">
+                <div uk-grid>
+                    <div class="uk-width-4-4@m">
+                        <article class="uk-article uk-text-center uk-margin-large-top uk-margin-large-bottom">
+                            <header>
+                            </header>
+                            <div class="entry-content uk-margin-medium-top">
+                                <img class="success" src="html/images/success.svg" width="100" alt="success">
+                                <h1 class="uk-article-title uk-margin-bottom">Success</h1>
+                                <p>Thank you! We have received your order!</p>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="uk-section uk-margin-large-top uk-section-xsmall border-top">
+            <div class="uk-container">
+                <div class="uk-child-width-1-2@m uk-text-center" uk-grid>
+                    <div class="uk-text-right@m">
+                        <img class="we-accept" src="html/images/we-accept.svg" width="120" alt="We Accept">
+                    </div>
+                    <div class="uk-flex-first@m uk-text-left@m">
+                        <p class="uk-text-small" style="color: #212121"><strong>DeCommerce</strong> © <span id="year"></span></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const d = new Date();
+            let year = d.getFullYear();
+            document.getElementById("year").innerHTML = year;
+        </script>
+
+    </body>
+</html>

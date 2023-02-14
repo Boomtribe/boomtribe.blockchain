@@ -1,0 +1,11 @@
+/* Custom Styles for the app */
+html {overflow-y: scroll;}
+.hint--underline {text-decoration-line:underline;text-decoration-style:dotted;cursor:help;}
+.curr {margin-left:4px;font-size:10px;}
+.usd-sign::after {content:"USD";margin-left:4px;font-size: 10px;}
+.btc-sign::after {content:"BTC";margin-left:4px;font-size: 10px;}
+.xmr-sign::after {content:"XMR";margin-left:4px;font-size: 10px;}
+.eth-sign::after {content:"ETH";margin-left:4px;font-size: 10px;}
+.usdt-sign::after {content:"USDT";margin-left:4px;font-size: 10px;}
+.loader::before {display: inline-block;content: "";width: 30px;height: 30px;background: transparent url('../images/loader.svg') no-repeat;margin-right: 10px;vertical-align:  middle;}
+.dashed-border {border: 1px dashed orange; padding: 20px;}
