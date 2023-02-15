@@ -56,7 +56,7 @@ var tetherAddress = "0x8E74eda2453d206628Ca10b51E660F70298705Ce";
 // ********************
 
 // A page title.
-var pageTitle = "DeCommerce";
+var pageTitle = "Boom Tribe";
 
 // A page description.
 var pageDescription = "Decentralized ecommerce platform for Web3";
@@ -66,7 +66,7 @@ var logoSrc = "images/logo.svg";
 
 // A link & text for the customers support.
 var customerSupportText = "Customer Support";
-var customerSupportLink = "https://discord.com/invite/uFKHXYwJUK";
+var customerSupportLink = "https://discord.gg/NXprWnwA";
 
 // Banners top
 // to hide add "hidden" as a class in the file index.html (class="top-banners hidden ...")
